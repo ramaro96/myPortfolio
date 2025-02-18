@@ -13,7 +13,7 @@ body{
 #header{
   width: 100%;
   height: 100vh;
-  background-image: url(https://www.freepik.com/free-photos-vectors/developer-background);
+  background-image: url("https://www.freepik.com/free-photos-vectors/developer-background");
   background-size: cover;
   background-position: center;
 
