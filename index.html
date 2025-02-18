@@ -1,20 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>My Portfolio Website</title>
-    <link rel="stylesheet" href="./style.css">
-    <link rel="icon" href="./favicon.ico" type="image/x-icon">
-</head>
-<body>
-<div id="header">
-  
-  <h1>Welcome to my Website</h1>  
-
-</div>
-  
-
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width" initial-scale="1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Rodrigo Portfolio</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Bebas+Neue&display=swap" rel="stylesheet">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    </head>
+    <body>
+        <header>
+            <nav id="navbar">
+                <ul class="nav-links">
+                    <li><a href="#welcome-section" class="nav-link">Welcome</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="welcome-section">
+            <h1> Hello I'm depoDev</h1>
+            <p>Full Stack Developer</p>
+        </section>
+        <section id="projects">
+            <h1>Check out some of my recent work! 😃</h1>
+            <div class="projects">
+                <a href="" class="project-tile">
+                    <img src="https://iili.io/JGBEEeS.md.png" alt="skyline">
+                    <p><span>&lt;</span>Skyline<span>/&gt;</span></p>
+                </a>
+                <a href="" class="project-tile">
+                    <img src="https://iili.io/JGBEbIt.md.png" alt="survey form">
+                    <p><span>&lt;</span>Survey Form<span>/&gt;</span></p>
+                </a>
+                <a href="" class="project-tile">
+                    <img src="https://iili.io/JGBGaZF.md.png" alt="tribute page">
+                    <p><span>&lt;</span>Tribute Page<span>/&gt;</span></p>
+                </a>
+                <a href="" class="project-tile">
+                    <img src="https://iili.io/JGBG7TP.md.png" alt="technical documentation page">
+                    <p><span>&lt;</span>Technical Documentation Page<span>/&gt;</span></p>
+                </a>
+                <a href="" class="project-tile">
+                    <img src="https://iili.io/JGBGYj1.md.png" alt="product landing page">
+                    <p><span>&lt;</span>Product Landing Page<span>/&gt;</span></p>
+                </a>
+            </div>
+            <a href="" class="show-all">
+                Show All <i class="ri-arrow-right-s-line"></i>
+            </a>
+        </section>
+        <section id="contact">
+            <h1>Let's work together...</h1>
+            <p class="coffee-question">How do you take your coffe?</p>
+            <div class="social-medias">
+                <a 
+                href="https://github.com/ramaro96"
+                target="_blank" 
+                class="social-media">
+                    <i class="ri-github-line"></i>
+                    <p>Github</p>
+                </a>
+                <a 
+                href="linkedin.com/in/rodrigo-amaro-9358b22b6"
+                target="_blank" 
+                class="social-media"
+                id="profile-link">
+                    <i class="ri-linkedin-box-fill"></i>
+                    <p>LinkedIn</p>
+                </a>
+                <a href="mailto:rodrigo.amaro2358@gmail.com" class="social-media">
+                    <i class="ri-mail-line"></i>
+                    <p>Email Me</p>
+                </a>
+                <a 
+                href="https://www.freecodecamp.org/depodev"
+                target="_blank" 
+                class="social-media">
+                    <i class="ri-fire-fill"></i>
+                    <p>freeCodeCamp</p>
+                </a>
+            </div>
+        </section>
+        <footer>Created by Rodrigo Amaro Feb 2024</footer>
+        <script src="index.js"></script>
+    </body>
 </html>
